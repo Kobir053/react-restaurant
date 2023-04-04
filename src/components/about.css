@@ -1,0 +1,22 @@
+#about-div{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.our-details-div{
+    height: auto;
+    width: 25%;
+    /* border: 1px solid white; */
+}
+.our-details-div h1,p{
+    color: rgb(255 199 0);
+}
+.our-details-div:hover{
+    transition: 0.2s;
+    background-color: rgb(209, 175, 55);
+    border-radius: 19px;
+}
+.our-details-div:hover h1,.our-details-div:hover p{
+    color: aliceblue;
+}
