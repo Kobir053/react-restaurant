@@ -23,6 +23,10 @@ export default function () {
                 <p>- Get recommendations, Order and pay <br/><span>No need for service staff</span></p>
                 <p>Increase instability<br/><span>By allowing restaurants owners not to rely on unstable rates of available staff</span></p>
             </div>
+            <div className="our-details-div">
+                <h1>Our UVP</h1>
+                <p>Enhance your dining experience with<br/><span>LATWO</span><br/>personalizing and preserve humane interactions.</p>
+            </div>
             
         </div>
     )
