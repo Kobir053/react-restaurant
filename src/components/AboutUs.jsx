@@ -8,15 +8,20 @@ export default function () {
         <div id="about-div">
             <div className="our-details-div">
                 <h1>Who We Are</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sequi, alias perspiciatis adipisci quasi quos illo repudiandae dolore doloremque eaque possimus voluptatem at amet perferendis eum et temporibus inventore earum.</p>
+                <p>Latwo is a Digital Waiter that brings your dining experience to the next level.<br/>
+                    You will be able to order, make changes to a dish, get recommendations, pay and much more!<br/>
+                    <span>The most humane digital waiter in the world</span></p>
             </div>
             <div className="our-details-div">
                 <h1>The Problem</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sequi, alias perspiciatis adipisci quasi quos illo repudiandae dolore doloremque eaque possimus voluptatem at amet perferendis eum et temporibus inventore earum.</p>
+                <h3>Long wait time for service</h3>
+                <p>Third of the time consumer spends in restaurant wasted on Waiting for service</p>
             </div>
             <div className="our-details-div">
                 <h1>The Solution</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sequi, alias perspiciatis adipisci quasi quos illo repudiandae dolore doloremque eaque possimus voluptatem at amet perferendis eum et temporibus inventore earum.</p>
+                <p>- driven AI digital waiter</p>
+                <p>- Get recommendations, Order and pay <br/><span>No need for service staff</span></p>
+                <p>Increase instability<br/><span>By allowing restaurants owners not to rely on unstable rates of available staff</span></p>
             </div>
             
         </div>
