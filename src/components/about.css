@@ -1,35 +1,109 @@
 #about-div{
-    margin-top: 250px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#main-container{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    width: 100%;
     flex-wrap: wrap;
+}
+#latwo{
+    display: block;
+    margin-bottom: 20px;
+}
+.container{
+    width: 45%;
+    height: auto;
+    background-color: rgb(245, 245, 18);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: yellow solid 1px;
+    border-radius: 65px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    /* padding-bottom: 15px; */
+}
+/* .right{
+    animation-name: theRight;
+    animation-duration: 1s;
+}
+@keyframes theRight {
+    0%{
+        position: relative;
+        left: calc(40%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        position: relative;
+        left: 0%;
+        opacity: 1;
+    }
+}
+.left{
+    animation-name: theLeft;
+    animation-duration: 1s;
+}
+@keyframes theLeft {
+    0%{
+        position: relative;
+        right: calc(40%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        position: relative;
+        right: 0%;
+        opacity: 1;
+    }
+} */
+.img{
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+#image-div{
+    width: 300px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#img-1{
+    height: 250px;
+    width: 350px;
+}
+#img-3{
+    width: 350px;
+}
+#img-4,#img-5,#img-6,#img-7{
+    height: 250px;
 }
 .our-details-div{
     height: auto;
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /* border: 1px solid white; */
 }
-.our-details-div h1{
-    color: rgb(68 126 68);
-}
-.our-details-div h3,p{
-    color: rgb(137 140 32);
+.our-details-div p{
+    color: grey;
 }
 .our-details-div span{
-    color: black;
+    color: rgb(249, 249, 244);
 }
 .our-details-div h3{
     text-decoration: underline;
-}
-.our-details-div:hover{
-    transition: 0.2s;
-    background-color: rgb(209, 175, 55);
-    border-radius: 19px;
-}
-.our-details-div:hover h3,.our-details-div:hover p{
-    color: aliceblue;
 }
 
 @media (max-width: 450px){
