@@ -1,3 +1,4 @@
+import './App.css';
 import Details from './components/Details'
 // import Welcome from './components/Welcome';
 import './components/about.css';
@@ -10,6 +11,7 @@ import img_4 from './img/img-4.jpg';
 import img_5 from './img/img-5.jpg';
 import img_6 from './img/img-6.jpg';
 import img_7 from './img/img-7.jpg';
+import img_spots from './img/img-spots.png';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -32,7 +34,8 @@ function App() {
                         <p>LATWO's AI digital waiter and Chatbot recommend the perfect order and handle payment seamlessly.</p>
                     </div>
                     <div id="image-div">
-                        <img id="img-1" className="img" src={img_1}/>
+                      {/* <img id="img-spots" src={img_spots}/> */}
+                      <img id="img-1" className="img" src={img_1}/>
                     </div>
                 </div>
 
