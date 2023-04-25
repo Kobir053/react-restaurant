@@ -6,12 +6,12 @@ export default function EmailRestaurant(){
     const [details,setDetails] = useState('');
 
     const check = ()=>{
-        if(details.firstName == null || details.lastName == null || details.restaurantName == null
+        if(details.name == null || details.restaurantName == null
              || details.email == null || details.phoneNumber == null){
             alert('you must to fill your details');
             return;
         }
-        if(details.firstName.length <= 1 || details.lastName.length <= 1){
+        if(details.name.length <= 1){
             alert('incorrect Name');
             return;
         }
@@ -36,15 +36,16 @@ export default function EmailRestaurant(){
 
     return (
         <div id="emailDiv">
-            <div style={{width: '100%', height: '70px', backgroundColor: 'yellow'}}></div>
+            <div className="yellow-div">
+                <h1>"The AI-based digital waiter has helped us to boost sales and eliminate the need for additional waitstaff. it's a game changer!"</h1>
+            </div>
             <div id="container">
-                <h1>Interesting to join our Revolution?</h1>
-                <input type ='text' className="details" required='required' onChange={(element)=>{setDetails({...details,firstName: element.target.value})}} placeholder="Enter your First name"/> <br/>
-                <input type ='text' className="details" required='required' onChange={(element)=>{setDetails({...details,lastName: element.target.value})}} placeholder="Enter your Last name"/> <br/>
-                <input type ='text' className="details" required='required' onChange={(element)=>{setDetails({...details,restaurantName: element.target.value})}} placeholder="Enter the Restaurant name"/> <br/>
-                <input type ="email" className="details" required='required' onChange={(element)=>{setDetails({...details,email: element.target.value})}} placeholder="Enter your Email"/> <br/>
-                <input type ="text" className="details" required='required' onChange={(element)=>{setDetails({...details,phoneNumber: element.target.value})}} placeholder="Enter your Phone number"/> <br/>
-                <button onClick={()=>{check()}}>Send Email</button>
+                <h1>Join the future of dining with <br/>LATWO<span>.</span></h1><br/>
+                <input type ='text' className="details small" required='required' onChange={(element)=>{setDetails({...details,name: element.target.value})}} placeholder="Name"/>
+                <input type ="text" className="details small" required='required' onChange={(element)=>{setDetails({...details,phoneNumber: element.target.value})}} placeholder="Phone number"/><br/>
+                <input type ='text' className="details" required='required' onChange={(element)=>{setDetails({...details,restaurantName: element.target.value})}} placeholder="Restaurant name"/><br/>
+                <input type ="email" className="details" required='required' onChange={(element)=>{setDetails({...details,email: element.target.value})}} placeholder="Enter your Email..."/><br/>
+                <button onClick={()=>{check()}}>Submit</button>
             </div>
         </div>
     )

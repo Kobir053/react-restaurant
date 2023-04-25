@@ -3,40 +3,66 @@
     height: 100%;
     margin-top: 50px;
     /* background-color: rgb(203, 146, 54); */
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column;
 }
+#emailDiv span{
+    color: rgb(223, 223, 20);
+}
 #container{
-    width: 50%;
+    width: 90%;
     height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction:column; */
     border-radius: 10px;
-    border: yellow solid 1px;
+    border: rgb(223, 223, 20) solid 2px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#emailDiv h1{
-    margin-top: 20px;
-    margin-bottom: 25px;
+.yellow-div{
+     width: 100%;
+     height: 130px;
+    background-color: rgb(223, 223, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.yellow-div h1{
+    color: white;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    width: 75%;
+    
+}
+#emailDiv #container h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
     /* color: rgb(240, 248, 6); */
 }
 .details{
     height: 40px;
-    width: 70%;
+    width: 40%;
     margin-bottom: 15px;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(218, 147, 14);
+    border: black solid 2px;
+    border-radius: 7px;
     color: rgb(255,255,255);
+    margin-top: 10px;
+}
+.small{
+    width: 19%;
+    margin: 0px 9px 10px 9px;
+    display: inline;
 }
 .details::placeholder{
-    color: rgb(255, 255, 255);
-    text-align: center;
+    color: gray;
+    padding-left: 15px;
     font-size: large;
 }
 .details:focus{
@@ -46,7 +72,7 @@
 #emailDiv button{
     width: 100px;
     height: 39px;
-    background-color: rgb(218, 147, 14);
+    background-color: rgb(223, 223, 20);
     color: aliceblue;
     border: none;
     margin-top: 05px;
