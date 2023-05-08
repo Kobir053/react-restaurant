@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/react-restaurant/static/css/main.4b1c33d6.css",
-    "main.js": "/react-restaurant/static/js/main.7dada05a.js",
+    "main.css": "/react-restaurant/static/css/main.c202dc05.css",
+    "main.js": "/react-restaurant/static/js/main.5a79514b.js",
     "static/js/787.6e590dfb.chunk.js": "/react-restaurant/static/js/787.6e590dfb.chunk.js",
-    "static/media/img-3.jpg": "/react-restaurant/static/media/img-3.d37091fca3ee0d905db7.jpg",
-    "static/media/img-6.jpg": "/react-restaurant/static/media/img-6.784f214af3cfad8d2a11.jpg",
-    "static/media/img-4.jpg": "/react-restaurant/static/media/img-4.78070fcd55d5f21925c0.jpg",
-    "static/media/img-5.jpg": "/react-restaurant/static/media/img-5.4ef5bdfb03a4a8fe7bde.jpg",
-    "static/media/img-1.jpg": "/react-restaurant/static/media/img-1.6544de51dad6d20e33ec.jpg",
-    "static/media/img-2.jpg": "/react-restaurant/static/media/img-2.4133211fc1827977902b.jpg",
-    "static/media/img-7.jpg": "/react-restaurant/static/media/img-7.4f67dc1de664982dc4f5.jpg",
+    "static/media/img-3.png": "/react-restaurant/static/media/img-3.d7f0648420e3e64e0e0f.png",
+    "static/media/img-7.png": "/react-restaurant/static/media/img-7.ad27ce8b9be65f13dda3.png",
+    "static/media/img-4.png": "/react-restaurant/static/media/img-4.a9235bbc5a3447ae1397.png",
+    "static/media/img-1.png": "/react-restaurant/static/media/img-1.a239e722a7dffe42ea14.png",
+    "static/media/img-2.png": "/react-restaurant/static/media/img-2.5fb71f224a8c104d4c8a.png",
+    "static/media/img-5.png": "/react-restaurant/static/media/img-5.8c380e016cf7d601370f.png",
+    "static/media/img-6.png": "/react-restaurant/static/media/img-6.b108767c1be29759445a.png",
     "static/media/img-spots.png": "/react-restaurant/static/media/img-spots.70baa4dcc281ecd80d4b.png",
+    "static/media/img-latwo.png": "/react-restaurant/static/media/img-latwo.bee859b8931f78c2a40e.png",
     "index.html": "/react-restaurant/index.html",
-    "main.4b1c33d6.css.map": "/react-restaurant/static/css/main.4b1c33d6.css.map",
-    "main.7dada05a.js.map": "/react-restaurant/static/js/main.7dada05a.js.map",
+    "main.c202dc05.css.map": "/react-restaurant/static/css/main.c202dc05.css.map",
+    "main.5a79514b.js.map": "/react-restaurant/static/js/main.5a79514b.js.map",
     "787.6e590dfb.chunk.js.map": "/react-restaurant/static/js/787.6e590dfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b1c33d6.css",
-    "static/js/main.7dada05a.js"
+    "static/css/main.c202dc05.css",
+    "static/js/main.5a79514b.js"
   ]
 }
