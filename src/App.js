@@ -29,9 +29,9 @@ function App() {
         <Details/> */}
         <img id='img-latwo' src={img_latwo}/>
             <div id="main-container">
-                <div className="container left" >
+                <div className="container top" >
                     <div id='detail-1' className="our-details-div">
-                        <h1>Revolutionize your dining experience with LATWO<span>.</span></h1>
+                        <h1>Revolutionize your dining experience with <br/><span><img id='span-latwo' src={img_latwo}/></span>ATWO<span>.</span></h1>
                         <p>LATWO's AI digital waiter and Chatbot recommend the perfect order and handle payment seamlessly.</p>
                     </div>
                     <div id='img-1-div' className="image-div">
