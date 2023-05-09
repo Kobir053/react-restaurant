@@ -10,8 +10,8 @@
     margin-left: 20px;
 }
 #span-latwo{
-    height: 43px;
-    width: 55px;
+    height: 45px;
+    width: 58px;
     /* margin-top: 50px; */
     margin-right: -8px;
 }
@@ -48,9 +48,9 @@
     /* border: 1px solid red; */
 }
 #img-1{
+    position: absolute;
     margin-top: 40px;
     right: -20px;
-    position: absolute;
 }
 #img-1-div{
     height: 505px;
@@ -64,6 +64,7 @@
 }
 #detail-1 h1{
     font-weight: 400;
+    font-size: 60px;
 }
 #img-2{
     /* height: 650px; */
