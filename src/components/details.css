@@ -37,7 +37,8 @@
     color: white;
     /* margin-left: 25%;
     margin-right: 25%; */
-    width: 75%;
+    width: 80%;
+    font-weight: 400;
     
 }
 #emailDiv #container h1{
@@ -48,15 +49,15 @@
 }
 .details{
     height: 40px;
-    width: 40%;
-    margin-bottom: 15px;
+    width: 50%;
+    margin-bottom: 7px;
     border: black solid 2px;
     border-radius: 7px;
-    margin-top: 10px;
+    margin-top: 7px;
     font-size: 20px;
 }
 .small{
-    width: 19%;
+    width: 24%;
     margin: 0px 9px 10px 9px;
     display: inline;
 }
@@ -69,17 +70,31 @@
     border: none;
     /* background-color: rgb(155, 3, 3); */
 }
-#emailDiv button{
+.submit{
     width: 100px;
     height: 39px;
     background-color: rgb(245 234 100);
     color: aliceblue;
     border: none;
-    margin-top: 05px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
-#emailDiv button:hover{
-    background-color: rgb(245, 234, 130);
-    border: white solid 1px; 
+.submit:hover{
+    /* background-color: rgb(245, 234, 130);
+    border: white solid 1px;  */
+    opacity: 0.8;
+}
+.log-in{
+    width: 210px;
+    height: 35px;
+    margin-bottom: 12px;
+    margin-top: 7px;
+    background-color: rgb(228 191 80);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.log-in:hover{
+    opacity: 0.8;
 }

@@ -44,8 +44,12 @@ export default function EmailRestaurant(){
                 <input type ='text' className="details small" required='required' onChange={(element)=>{setDetails({...details,name: element.target.value})}} placeholder="Name"/>
                 <input type ="text" className="details small" required='required' onChange={(element)=>{setDetails({...details,phoneNumber: element.target.value})}} placeholder="Phone number"/><br/>
                 <input type ='text' className="details" required='required' onChange={(element)=>{setDetails({...details,restaurantName: element.target.value})}} placeholder="Restaurant name"/><br/>
+                <input type ='text' className="details" required='required' placeholder="Restaurant name"/><br/>
+                <input type ='text' className="details" required='required' placeholder="Restaurant name"/><br/>
+                <input type ='text' className="details" required='required' placeholder="Restaurant name"/><br/>
                 <input type ="email" className="details" required='required' onChange={(element)=>{setDetails({...details,email: element.target.value})}} placeholder="Enter your Email..."/><br/>
-                <button onClick={()=>{check()}}>Submit</button>
+                <button className="submit" onClick={()=>{check()}}>Submit</button> <br/>
+                <button className="log-in">Already registered? Try to log in</button>
             </div>
         </div>
     )
