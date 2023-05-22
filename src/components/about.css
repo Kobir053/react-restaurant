@@ -42,11 +42,6 @@
     width: 40%;
     /* background-image: url(../img/img-spots-2.png); */
 }
-/* #img-span{
-    background-image: url(../img/img-spots-2.png);
-    height: 200px;  
-    width: 100px;
-} */
 .right-img{
     position: absolute;
     right: -20px;
@@ -57,7 +52,7 @@
     width: 45%;
     margin-left: 150px;
     padding-right: 10%;
-    margin-top: -20px;
+    margin-top: -10%;
 }
 .left-img{
     position: absolute;
@@ -69,7 +64,7 @@
     width: 45%;
     margin-left: 180px;
     padding-right: 10%;
-    margin-top: -20px;
+    margin-top: -80px;
 }
 #detail-1 h1{
     font-weight: 400;
@@ -94,15 +89,53 @@
 }
 
 @media (max-width: 450px){
-    #about-div{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 0px;
+    #img-latwo{
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
-    .our-details-div{
-        width: 85%;
-        margin-left: 20px;
+    .container{
+        margin-bottom: 30px;
+        height: 300px;
+    }
+    .img{
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .left-img{
+        margin-top: 60px;
+    }
+    .right-detail{
+        width: 60%;
+        margin-left: 10px;
+        padding-right: 0px;
+        margin-top: -20px;
+    }
+    .left-detail{
+        width: 70%;
+        margin-left: 10px;
+        padding: 0px;
+        margin-top: -10px;
+    }
+    #span-latwo{
+        height: 15px;
+        width: 18px;
+        margin-right: -3px;
+    }
+    .image-div{
+        width: 65%;
+        margin: 0px;
+    }
+    #detail-1 h1{
+        font-size: larger;
+    }
+    .our-details-div h1{
+        font-size: large;
+    }
+    .our-details-div p{
+        font-size: small;
     }
 }
 

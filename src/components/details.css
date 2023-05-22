@@ -98,3 +98,18 @@
 .log-in:hover{
     opacity: 0.8;
 }
+
+@media (max-width: 450px) {
+    .yellow-div h1{
+        font-size: large;
+    }
+    .details{
+        width: 70%;
+    }
+    #emailDiv #container h1{
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        /* color: rgb(240, 248, 6); */
+    }
+} 
